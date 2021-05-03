@@ -1,6 +1,13 @@
 import React from "react";
+import { Counter } from "./components/Counter";
+import { RepositoryList } from "./components/RepositoryList";
 import "./styles/global.scss"
 
 export function App() {
-  return <h1>Wello</h1>;
+  return (
+    <>
+      <RepositoryList/>
+      <Counter/>
+    </>
+  );
 }
