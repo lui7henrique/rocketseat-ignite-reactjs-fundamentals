@@ -1,5 +1,6 @@
 import React from "react";
+import "./styles/global.scss"
 
 export function App() {
-  return <h1>Wello Horld</h1>;
+  return <h1>Wello</h1>;
 }
