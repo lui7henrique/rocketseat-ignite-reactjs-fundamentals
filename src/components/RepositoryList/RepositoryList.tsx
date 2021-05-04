@@ -2,12 +2,6 @@ import { RepositoryItem } from "./RepositoryItem/RepositoryItem";
 import { useEffect, useState } from "react";
 import "../../styles/repositories.scss";
 
-// const repository = {
-//   name: 'henrique',
-//   description: 'henrique',
-//   link: 'https://google.com.br'
-// }
-
 interface Repository {
   name: string;
   description: string;
