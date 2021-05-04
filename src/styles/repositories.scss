@@ -1,5 +1,5 @@
 section.repository-list {
-  margin: 2.5rem; 
+  margin: 2.5rem;
   h1 {
     margin-bottom: 1rem;
     padding-bottom: 1rem;
@@ -11,11 +11,17 @@ section.repository-list {
 
     li {
       background: #202024;
-      box-shadow: -1px 5px 17px -2px rgba(0,0,0,0.5);
+      box-shadow: -1px 5px 17px -2px rgba(0, 0, 0, 0.5);
       border-radius: 1rem;
       padding: 1rem;
       margin-top: 1.25rem;
-      
+
+      transition: filter 0.5s;
+
+      &:hover {
+        filter: brightness(1.2);
+      }
+
       strong {
         font-size: 1.5rem;
       }
@@ -31,18 +37,21 @@ section.repository-list {
         margin-top: 16px;
         text-decoration: none;
         border-radius: 0.5rem;
-        font-weight: bold;
+        font-weight: 500;
+        //width: 200px;
 
-        padding: 0.5rem;
+        padding: 0.6rem;
 
-        background: #865DCA;
+        background: #865dca;
 
         transition: filter 0.2s;
+        //transition: width 1s;
 
-        &:hover{
-          filter: brightness(0.8)
+        &:hover {
+          //width: 100%;
+          filter: brightness(0.8);
         }
       }
     }
-  }  
+  }
 }
